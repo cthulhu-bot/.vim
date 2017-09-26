@@ -401,6 +401,8 @@ autocmd User Node
   \ nmap <buffer> <C-w><C-f> <Plug>NodeVSplitGotoFile |
   \ endif
 
+map <leader>c gc
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerdtree
