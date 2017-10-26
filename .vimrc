@@ -60,7 +60,7 @@ let g:mapleader = "\<Space>"
 
 " Fast saving
 nmap <leader>w :w!<cr>
-nmap <leader>q :q!<cr>
+nmap <leader>q :qa!<cr>
 nmap <leader>x :x!<cr>
 
 " :W sudo saves the file 
@@ -371,16 +371,16 @@ map <leader>b :BufExplorer<ENTER>
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
 " Quickly open a buffer for scribble
-map <leader>q :e ~/buffer<cr>
+" map <leader>q :e ~/buffer<cr>
 
 " Quickly open a markdown buffer for scribble
-map <leader>x :e ~/buffer.md<cr>
+" map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
-map <leader>pp :setlocal paste!<cr>
+" map <leader>pp :setlocal paste!<cr>
 
-let g:ranger_map_keys=0
-map <leader>f :Ranger<CR>
+"let g:ranger_map_keys=0
+"map <leader>f :Ranger<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -407,8 +407,14 @@ map <leader>c gc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerdtree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 map <leader>n :NERDTreeToggle<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => MRU
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>f :MRU<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
