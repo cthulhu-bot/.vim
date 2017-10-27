@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/stujo04/.gradle'
-let g:netrw_dirhist_2='/Users/stujo04/.zgen'
-let g:netrw_dirhist_3='/Users/stujo04/projects/js/js-sandbox'
-let g:netrw_dirhist_4='/Users/stujo04'
-let g:netrw_dirhist_5='/Users/stujo04/.vim'
-let g:netrw_dirhist_6='/Users/stujo04/projects/rally-autoprovision'
-let g:netrw_dirhist_7='/Users/stujo04/.vim'
