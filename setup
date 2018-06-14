@@ -20,6 +20,7 @@ git clone https://github.com/junegunn/fzf
 git clone https://github.com/terryma/vim-multiple-cursors
 git clone https://github.com/tomtom/tcomment_vim
 git clone https://github.com/w0rp/ale
+git clone https://github.com/tpope/vim-eunuch
 git config --global core.editor /usr/bin/vim
 cd ~/.vim
 cp .vimrc ~/.vimrc
