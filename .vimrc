@@ -410,6 +410,7 @@ map <leader>c gc
 " autocmd vimenter * NERDTree
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => MRU
