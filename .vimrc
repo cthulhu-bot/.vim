@@ -445,6 +445,12 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 nnoremap <leader>b :BufExplorer<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Git commands
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>g :Gstatus<CR>
+nnoremap <leader>gc :Gcommit<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Returns true if paste mode is enabled
