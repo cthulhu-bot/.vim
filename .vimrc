@@ -413,6 +413,15 @@ let NERDTreeShowHidden=1
 let g:NERDTreeNodeDelimiter = "\u00a0"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Prettier
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:prettier#config#single_quote = 'true'
+let g:prettier#config#bracket_spacing = 'true'
+let g:prettier#config#jsx_bracket_same_line = 'true'
+let g:prettier#config#arrow_parens = 'always'
+let g:prettier#config#trailing_comma = 'none'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => MRU
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>f :MRU<CR>
@@ -432,7 +441,8 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => buffer commands
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>b :buffer
+" map <leader>b :ls<CR>:b<Space>
+nnoremap <leader>b :BufExplorer<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions

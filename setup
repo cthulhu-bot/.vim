@@ -1,4 +1,8 @@
 cd ~
+if [ -f ~/.vimrc ]; then
+  cp ~/.vimrc ~/.vimrc.bak
+  rm -rf .vimrc
+fi
 export VIM_DIRECTORY="~/.vim"
 if [ -d ~/.vim ]; then
   echo "vim dir exists"
@@ -18,6 +22,8 @@ git clone https://github.com/junegunn/fzf
 git clone https://github.com/terryma/vim-multiple-cursors
 git clone https://github.com/tomtom/tcomment_vim
 git clone https://github.com/tpope/vim-eunuch
+git clone https://github.com/prettier/vim-prettier
 git config --global core.editor /usr/bin/vim
+git clone https://github.com/jlanzarotta/bufexplorer.git
 cd ~/.vim
 cp .vimrc ~/.vimrc
