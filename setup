@@ -31,6 +31,7 @@ git clone https://github.com/morhetz/gruvbox.git
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/pack/typescript/start/typescript-vim
 git clone https://github.com/derekwyatt/vim-scala.git
 git clone https://github.com/ctrlpvim/ctrlp.vim
+git clone https://github.com/dense-analysis/ale.git
 
 cd ~/.vim
 cp .vimrc ~/.vimrc
